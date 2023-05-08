@@ -24,8 +24,17 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 100px;
+    width: 50%;
+    height: 60%;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-right:20px ;
     width: 50%;
     height: 100%;
 
@@ -50,4 +59,12 @@ a:hover{
 }
 h3{
     margin-top: 50px;
+}
+.form{
+    display: none;
+}
+.tabla{
+    display: none;
+    max-height: 400px;
+    overflow: scroll;
 }

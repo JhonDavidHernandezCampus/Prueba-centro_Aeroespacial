@@ -1,0 +1,37 @@
+let ws = {
+    async consulta(){
+        let puerto = 3000;
+        try{
+            const data = await fetch(`http://localhost:${puerto}/reclutas`);
+            const datap = await data.json();
+            return datap;
+        }catch(error){
+            console.log(error);
+        }
+    },
+    async mostarTodo(){
+        let data = [];
+        let databla = "";
+        data = await this.consulta();
+        data.forEach(e => {
+            databla += `
+            <tr>
+                <th>${e.nombre}</th>
+                <th>${e.edad}</th>
+                <th>${e.telefono}</th>
+                <th>${e.email}</th>
+                <th>${e.direccion}</th>
+                <th>${e.f_nacimiento}</th>
+                <th>${e.num_id}</th>
+                <th>${e.f_ingreso}</th>
+                <th>${e.id}</th>
+            </tr>
+            `;
+        });
+        return databla;
+    }
+}
+self.addEventListener("message", async(e)=>{
+    console.log(e.data.module);
+    postMessage(await ws[`${e.data.module}`]())
+})
