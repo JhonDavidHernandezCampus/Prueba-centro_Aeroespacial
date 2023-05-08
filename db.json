@@ -1,0 +1,42 @@
+{
+    "reclutas":[
+        {
+            "nombre": "jhon",
+            "telefono": 2,
+            "email": "email 1",
+            "direccion": "direccion 1",
+            "f_nacimiento": "f_nacimiento 1",
+            "num_id": 82,
+            "f_ingreso": 1683549084,
+            "edad": 30,
+            "id": "1"
+        }
+    ],
+    "evaluacion":[
+        {
+            "nota": "nota 1",
+            "id": 1,
+            "reclutaId": "1"
+        }
+    ],
+    "skill":[
+        {
+            "id":1,
+            "nombre":"programador lANS"
+        }
+    ],
+    "modulo_skill":[
+        {
+            "id": 1,
+            "nombre":"F1",
+            "id_skill":1
+        }
+    ],
+    "evalucion":[
+        {
+            "id_recluta":1,
+            "id_modulo":1,
+            "nota":"que si puedo hijo de su madre hermosa"
+        }
+    ]
+}
