@@ -34,33 +34,40 @@
             <h3 class="">Eliminar elemento</h3>
             <a href="">Eliminar</a>
             <h3 class="">Otras Consultas</h3>
-            <select class="form-select w-75" name="" id="">
-                <option value="1">1</option>
+            <select class="form-select w-50" name="" id="">
+                <option selected="true" disabled="disabled">Seleccione tipo de busqueda</option>
+                <option value="1">Reclutas con mas de 2 meses en el programa</option>
+                <option value="2">Reclutas asociados a un teams espesifico</option>
+                <option value="3">modulos asignados a un skill espesifico</option>
+                <option value="4">reclutas menores de edad</option>
+                <option value="5">Modulos estudiados por un determinado recluta</option>
+                <option value="6">Reclutas que reprobaron un determinado mudulo</option>
+
             </select>
         </div>
         <div class="con">
             <div class="form">
                 <form  class="border w-50 p-5 rounded d-flex flex-column">
                     <label for="" class="form-label">Nombre</label>
-                    <input class="form-control w-100 " type="text" name="" id="" >
+                    <input class="form-control w-100 " type="text" name="nombre" id="" >
     
                     <label for="" class="form-label">Edad</label>
-                    <input class="form-control w-100 " type="number" name="" id="" >
+                    <input class="form-control w-100 " type="number" name="edad" id="" >
     
                     <label for="" class="form-label">Numero</label>
-                    <input class="form-control w-100 " type="number" name="" id="" >
+                    <input class="form-control w-100 " type="number" name="numero" id="" >
     
                     <label for="" class="form-label">Gmail</label>
-                    <input class="form-control w-100 " type="email" name="" id="" >
+                    <input class="form-control w-100 " type="email" name="email" id="" >
     
                     <label for="" class="form-label">Direccion</label>
-                    <input class="form-control w-100 " type="text" name="" id="" >
+                    <input class="form-control w-100 " type="text" name="direccion" id="" >
     
                     <label for="" class="form-label">Fecha de Nacimiento</label>
-                    <input class="form-control w-100 " type="date" name="" id="" >
+                    <input class="form-control w-100 " type="date" name="f_nacimiento" id="" >
     
                     <label for="" class="form-label">CC</label>
-                    <input class="form-control w-100 " type="number" name="" id="" >
+                    <input class="form-control w-100 " type="number" name="num_id" id="" >
     
                     <input class="btn btn-primary mt-2" type="submit" value="enviar">
                 </form>
@@ -85,8 +92,6 @@
 
                 </table>
             </div>
-            
-
         </div>
     </section>
 

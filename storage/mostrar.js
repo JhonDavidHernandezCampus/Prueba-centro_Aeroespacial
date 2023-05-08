@@ -6,9 +6,7 @@ const form = document.querySelector(".form");
 crear.addEventListener("click", (e)=>{
     e.preventDefault()
     form.style.display = "block"
-    console.log(form);
 })
-console.log(form);
 
 /* todos los datos  */
 
@@ -29,4 +27,10 @@ mostrar.addEventListener("click",(e)=>{
         tabladatos.innerHTML= e.data;
         ws.terminate();
     })
+})
+
+const op = document.querySelector("select");
+
+op.addEventListener("change",(e)=>{
+    console.log(op.value);
 })

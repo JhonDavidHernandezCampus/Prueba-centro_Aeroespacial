@@ -1,3 +1,5 @@
+import reclutas from '../api/reclutas.js';
+
 let ws = {
     async consulta(){
         let puerto = 3000;
