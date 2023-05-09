@@ -49,6 +49,16 @@
       "f_nacimiento": "2002-01-01",
       "num_id": "12",
       "id": 1683658063901
+    },
+    {
+      "nombre": "jhon",
+      "edad": "123",
+      "numero": "123",
+      "email": "laura@uts.com",
+      "direccion": "12",
+      "f_nacimiento": "1001-12-12",
+      "num_id": "12321",
+      "id": 1683668722285
     }
   ],
   "evaluacion": [

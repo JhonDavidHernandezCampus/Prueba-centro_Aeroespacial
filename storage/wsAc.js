@@ -1,12 +1,12 @@
 import datos from '../api/reclutas.js';
 
 let wsAc ={
-    actualizar(e){
-        console.log("actualizar en worker");
-        console.log(e);
+    async actualizar(e){
+        let data =await  datos.getRecluta((Number(e.name))?Number(e.name):e.name);
+        console.log(data);
     }
 }
 
-self.addEventListener("message", (e)=>{
-    postMessage(wsAc[`${e.data.module}`](e.data.data))
+self.addEventListener("message", async (e)=>{
+    postMessage(await wsAc[`${e.data.module}`](e.data.data))
 })

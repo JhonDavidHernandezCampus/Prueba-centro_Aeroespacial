@@ -1,4 +1,6 @@
 
+
+let divActu = document.querySelector(".actualizado")
 const crear = document.querySelector(".crear");
 const form = document.querySelector(".form");
 
@@ -14,6 +16,7 @@ const mostrar = document.querySelector(".mostrar");
 
 
 mostrar.addEventListener("click",(e)=>{
+    divActu.style.display = "none";
     form.style.display = "none"
     const tabla = document.querySelector(".tabla");
     tabla.style.display = "block"
