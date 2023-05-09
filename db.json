@@ -1,255 +1,54 @@
 {
   "reclutas": [
     {
-      "nombre": "nombre 1",
-      "telefono": 2,
-      "email": "email 1",
-      "direccion": "direccion 1",
-      "f_nacimiento": "f_nacimiento 1",
-      "num_id": 82,
-      "f_ingreso": 1683549084,
-      "edad": 30,
-      "id": "1"
-    },
-    {
-      "nombre": "nombre 2",
-      "telefono": 2,
-      "email": "email 2",
-      "direccion": "direccion 2",
-      "f_nacimiento": "f_nacimiento 2",
-      "num_id": 14,
-      "f_ingreso": 1683549024,
-      "edad": 3,
-      "id": "2"
-    },
-    {
-      "nombre": "nombre 3",
-      "telefono": 47,
-      "email": "email 3",
-      "direccion": "direccion 3",
-      "f_nacimiento": "f_nacimiento 3",
-      "num_id": 59,
-      "f_ingreso": 1683548964,
-      "edad": 20,
-      "id": "3"
-    },
-    {
-      "nombre": "nombre 4",
-      "telefono": 44,
-      "email": "email 4",
-      "direccion": "direccion 4",
-      "f_nacimiento": "f_nacimiento 4",
-      "num_id": 73,
-      "f_ingreso": 1683548904,
-      "edad": 22,
-      "id": "4"
-    },
-    {
-      "nombre": "nombre 5",
-      "telefono": 98,
-      "email": "email 5",
-      "direccion": "direccion 5",
-      "f_nacimiento": "f_nacimiento 5",
-      "num_id": 44,
-      "f_ingreso": 1683549153,
-      "edad": 47,
-      "id": "5"
-    },
-    {
-      "nombre": "nombre 6",
-      "telefono": 26,
-      "email": "email 6",
-      "direccion": "direccion 6",
-      "f_nacimiento": "f_nacimiento 6",
-      "num_id": 97,
-      "f_ingreso": 1683549093,
-      "edad": 77,
-      "id": "6"
-    },
-    {
-      "nombre": "nombre 7",
-      "telefono": 32,
-      "email": "email 7",
-      "direccion": "direccion 7",
-      "f_nacimiento": "f_nacimiento 7",
-      "num_id": 27,
-      "f_ingreso": 1683549033,
-      "edad": 41,
-      "id": "7"
-    },
-    {
-      "nombre": "nombre 8",
-      "telefono": 60,
-      "email": "email 8",
-      "direccion": "direccion 8",
-      "f_nacimiento": "f_nacimiento 8",
-      "num_id": 40,
-      "f_ingreso": 1683548973,
-      "edad": 92,
-      "id": "8"
-    },
-    {
-      "nombre": "nombre 9",
-      "telefono": 2,
-      "email": "email 9",
-      "direccion": "direccion 9",
-      "f_nacimiento": "f_nacimiento 9",
-      "num_id": 61,
-      "f_ingreso": 1683548913,
-      "edad": 44,
-      "id": "9"
-    },
-    {
-      "nombre": "nombre 10",
-      "telefono": 49,
-      "email": "email 10",
-      "direccion": "direccion 10",
-      "f_nacimiento": "f_nacimiento 10",
-      "num_id": 85,
-      "f_ingreso": 1683548853,
-      "edad": 16,
-      "id": "10"
-    },
-    {
-      "nombre": "nombre 11",
-      "telefono": 26,
-      "email": "email 11",
-      "direccion": "direccion 11",
-      "f_nacimiento": "f_nacimiento 11",
-      "num_id": 38,
-      "f_ingreso": 1683548793,
-      "edad": 98,
-      "id": "11"
-    },
-    {
-      "nombre": "nombre 12",
-      "telefono": 61,
-      "email": "email 12",
-      "direccion": "direccion 12",
-      "f_nacimiento": "f_nacimiento 12",
-      "num_id": 56,
-      "f_ingreso": 1683548733,
-      "edad": 85,
-      "id": "12"
-    },
-    {
-      "nombre": "nombre 13",
-      "telefono": 80,
-      "email": "email 13",
-      "direccion": "direccion 13",
-      "f_nacimiento": "f_nacimiento 13",
-      "num_id": 45,
-      "f_ingreso": 1683548673,
-      "edad": 22,
-      "id": "13"
-    },
-    {
-      "nombre": "nombre 14",
-      "telefono": 64,
-      "email": "email 14",
-      "direccion": "direccion 14",
-      "f_nacimiento": "f_nacimiento 14",
-      "num_id": 53,
-      "f_ingreso": 1683548613,
-      "edad": 92,
-      "id": "14"
-    },
-    {
-      "nombre": "nombre 15",
-      "telefono": 13,
-      "email": "email 15",
-      "direccion": "direccion 15",
-      "f_nacimiento": "f_nacimiento 15",
-      "num_id": 35,
-      "f_ingreso": 1683548553,
-      "edad": 63,
-      "id": "15"
-    },
-    {
-      "nombre": "nombre 16",
-      "telefono": 12,
-      "email": "email 16",
-      "direccion": "direccion 16",
-      "f_nacimiento": "f_nacimiento 16",
-      "num_id": 30,
-      "f_ingreso": 1683548493,
-      "edad": 4,
-      "id": "16"
-    },
-    {
-      "nombre": "nombre 17",
-      "telefono": 99,
-      "email": "email 17",
-      "direccion": "direccion 17",
-      "f_nacimiento": "f_nacimiento 17",
-      "num_id": 35,
-      "f_ingreso": 1683548433,
-      "edad": 30,
-      "id": "17"
-    },
-    {
-      "nombre": "nombre 18",
-      "telefono": 32,
-      "email": "email 18",
-      "direccion": "direccion 18",
-      "f_nacimiento": "f_nacimiento 18",
-      "num_id": 81,
-      "f_ingreso": 1683548373,
-      "edad": 59,
-      "id": "18"
-    },
-    {
-      "nombre": "nombre 19",
-      "telefono": 78,
-      "email": "email 19",
-      "direccion": "direccion 19",
-      "f_nacimiento": "f_nacimiento 19",
-      "num_id": 76,
-      "f_ingreso": 1683548313,
-      "edad": 69,
-      "id": "19"
-    },
-    {
-      "nombre": "nombre 20",
-      "telefono": 8,
-      "email": "email 20",
-      "direccion": "direccion 20",
-      "f_nacimiento": "f_nacimiento 20",
-      "num_id": 37,
-      "f_ingreso": 1683548253,
-      "edad": 36,
-      "id": "20"
-    },
-    {
-      "nombre": "nombre 21",
-      "telefono": 60,
-      "email": "email 21",
-      "direccion": "direccion 21",
-      "f_nacimiento": "f_nacimiento 21",
-      "num_id": 14,
-      "f_ingreso": 1683548289,
-      "edad": 46,
-      "id": "21"
-    },
-    {
       "nombre": "jhon",
       "edad": "123",
-      "numero": "12321",
-      "email": "werfw@fdhg",
-      "direccion": "wdsfv",
+      "numero": "12312",
+      "email": "laura@uts.com",
+      "direccion": "casa de la otra",
+      "f_nacimiento": "2003-12-12",
+      "num_id": "121312",
+      "id": 1683653717997
+    },
+    {
+      "nombre": "carlos",
+      "edad": "123",
+      "numero": "89",
+      "email": "laura@uts.com",
+      "direccion": "casa de la otra",
       "f_nacimiento": "2003-01-01",
-      "num_id": "123123",
-      "id": 1683571367500
+      "num_id": "1212",
+      "id": 1683654129361
     },
     {
       "nombre": "jhon",
-      "edad": "123",
-      "numero": "12321",
-      "email": "werfw@fdhg",
-      "direccion": "wdsfv",
-      "f_nacimiento": "2003-01-02",
-      "num_id": "123",
-      "id": 1683571473037
+      "edad": "12",
+      "numero": "123",
+      "email": "laura@uts.com",
+      "direccion": "123",
+      "f_nacimiento": "2002-12-01",
+      "num_id": "121",
+      "id": 1683655633460
+    },
+    {
+      "nombre": "jhonj",
+      "edad": "756",
+      "numero": "2324",
+      "email": "asjbd@asd",
+      "direccion": "2234",
+      "f_nacimiento": "2001-01-12",
+      "num_id": "1231",
+      "id": 1683655695752
+    },
+    {
+      "nombre": "jhon",
+      "edad": "12",
+      "numero": "123",
+      "email": "laura@uts.com",
+      "direccion": "123",
+      "f_nacimiento": "2002-01-01",
+      "num_id": "12",
+      "id": 1683658063901
     }
   ],
   "evaluacion": [

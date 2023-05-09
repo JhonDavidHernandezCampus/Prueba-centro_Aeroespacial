@@ -10,6 +10,12 @@ const postRecluta = async(arg)=>{
     };
     return await ( await fetch(`http://localhost:${puerto}/reclutas`, config)).json();
 }
+
+const getRecluta = async()=>{
+    console.log("se ejecuta abtualizar");
+}
+
 export default{
-    postRecluta
+    postRecluta,
+    getRecluta
 }
