@@ -1,14 +1,10 @@
 
 
 let divActu = document.querySelector(".actualizado")
-const crear = document.querySelector(".crear");
 const form = document.querySelector(".form");
 
 
-crear.addEventListener("click", (e)=>{
-    e.preventDefault()
-    form.style.display = "block"
-})
+
 
 /* todos los datos  */
 
@@ -32,8 +28,3 @@ mostrar.addEventListener("click",(e)=>{
     })
 })
 
-const op = document.querySelector("select");
-
-op.addEventListener("change",(e)=>{
-    console.log(op.value);
-})

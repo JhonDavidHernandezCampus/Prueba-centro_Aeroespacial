@@ -8,17 +8,19 @@
       "direccion": "c",
       "f_nacimiento": "20",
       "num_id": "1",
+      "f_ingreso": "2023-05-10",
       "id": 1683655695752
     },
     {
-      "nombre": "ramires",
+      "nombre": "carlos",
       "edad": "12",
-      "numero": "1121",
-      "email": "ramires@uts.com",
-      "direccion": "casa de jhon",
-      "f_nacimiento": "2003-12-12",
-      "num_id": "322475",
-      "id": 1683668722285
+      "numero": "123",
+      "email": "asjbd@asd",
+      "direccion": "casa de la otra",
+      "f_nacimiento": "2002-12-12",
+      "num_id": "12312",
+      "f_ingreso": "2023-05-10",
+      "id": 1683727809973
     }
   ],
   "evaluacion": [],

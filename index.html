@@ -51,7 +51,7 @@
                 <!-- formulario de agregar -->
                 <form  class="border w-50 p-5 rounded d-flex flex-column">
                     <label for="" class="form-label">Nombre</label>
-                    <input class="form-control w-100 " type="text" name="nombre" id="" >
+                    <input class="form-control w-100 " type="text" name="nombre" id="" required>
     
                     <label for="" class="form-label">Edad</label>
                     <input class="form-control w-100 " type="number" name="edad" id="" >
@@ -69,7 +69,7 @@
                     <input class="form-control w-100 " type="date" name="f_nacimiento" id="" >
     
                     <label for="" class="form-label">CC</label>
-                    <input class="form-control w-100 " type="number" name="num_id" id="" >
+                    <input class="form-control w-100 " type="number" name="num_id" id="" required>
     
                     <input class="btn btn-primary mt-2" type="submit" value="enviar">
                 </form>
@@ -98,7 +98,7 @@
             <!-- formulario de pedir actualizacion -->
             <div class="actualizado">
                 <form action="" class="formActu">
-                    <label class="form-label" for="">Ingrese el id  o el nombre de la persona que desea actulizar</label>
+                    <label class="form-label" for="">Ingrese el id  del recluta a actualizar</label>
                     <input class="form-control w-50 " type="number" name="id">
                     <input type="submit" class="btn btn-dark">
                 </form>

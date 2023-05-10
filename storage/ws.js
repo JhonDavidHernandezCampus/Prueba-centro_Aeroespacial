@@ -16,6 +16,7 @@ let ws = {
         let databla = "";
         let fecha = new Date().toISOString().split("T")[0];
         data = await this.consulta();
+        console.log(data);
         data.forEach(e => {
             databla += `
             <tr>
@@ -26,7 +27,7 @@ let ws = {
                 <th>${e.direccion}</th>
                 <th>${e.f_nacimiento}</th>
                 <th>${e.num_id}</th>
-                <th>${fecha}</th>
+                <th>${e.f_ingreso}</th>
                 <th>${e.id}</th>
             </tr>
             `;
