@@ -1,36 +1,6 @@
 {
   "reclutas": [
     {
-      "nombre": "jhon",
-      "edad": "123",
-      "numero": "12312",
-      "email": "laura@uts.com",
-      "direccion": "casa de la otra",
-      "f_nacimiento": "2003-12-12",
-      "num_id": "121312",
-      "id": 1683653717997
-    },
-    {
-      "nombre": "carlos",
-      "edad": "123",
-      "numero": "89",
-      "email": "laura@uts.com",
-      "direccion": "casa de la otra",
-      "f_nacimiento": "2003-01-01",
-      "num_id": "1212",
-      "id": 1683654129361
-    },
-    {
-      "nombre": "jhon",
-      "edad": "12",
-      "numero": "123",
-      "email": "laura@uts.com",
-      "direccion": "123",
-      "f_nacimiento": "2002-12-01",
-      "num_id": "121",
-      "id": 1683655633460
-    },
-    {
       "nombre": "eddy",
       "edad": "1",
       "numero": "1",
@@ -39,16 +9,6 @@
       "f_nacimiento": "20",
       "num_id": "1",
       "id": 1683655695752
-    },
-    {
-      "nombre": "jhon",
-      "edad": "12",
-      "numero": "123",
-      "email": "laura@uts.com",
-      "direccion": "123",
-      "f_nacimiento": "2002-01-01",
-      "num_id": "12",
-      "id": 1683658063901
     },
     {
       "nombre": "ramires",
@@ -61,13 +21,7 @@
       "id": 1683668722285
     }
   ],
-  "evaluacion": [
-    {
-      "nota": "nota 1",
-      "id": 1,
-      "reclutaId": 1
-    }
-  ],
+  "evaluacion": [],
   "skill": [
     {
       "id": 1,

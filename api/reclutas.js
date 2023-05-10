@@ -21,8 +21,15 @@ const getRecluta = async(e,datos)=>{
     return await (await fetch(`http://localhost:3000/reclutas/${e}`, config)).json();
 }
 
-const deleteRecluta = async ()=>{
-    console.log("estamos en reclutas")
+const deleteRecluta = async (e)=>{
+    console.log(e);
+    let config ={
+        method:"DELETE",
+        headers:headers,
+    };
+    return await(await fetch(`http://localhost:3000/reclutas/${e.id}`,config)).json();
+
+
 }
 
 export default{
