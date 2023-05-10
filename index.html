@@ -32,7 +32,7 @@
             <h3 class="">Actualizar elemento</h3>
             <a href="" class="actualizar">Actualizar</a>
             <h3 class="">Eliminar elemento</h3>
-            <a href="">Eliminar</a>
+            <a href="" class="eliminar">Eliminar</a>
             <h3 class="">Otras Consultas</h3>
             <select class="form-select w-50" name="" id="">
                 <option selected="true" disabled="disabled">Seleccione tipo de busqueda</option>
@@ -46,6 +46,7 @@
             </select>
         </div>
         <div class="con">
+
             <div class="form">
                 <!-- formulario de agregar -->
                 <form  class="border w-50 p-5 rounded d-flex flex-column">
@@ -94,10 +95,19 @@
 
                 </table>
             </div>
+            <!-- formulario de pedir actualizacion -->
             <div class="actualizado">
                 <form action="" class="formActu">
                     <label class="form-label" for="">Ingrese el id  o el nombre de la persona que desea actulizar</label>
-                    <input class="form-control w-50 " type="text" name="name">
+                    <input class="form-control w-50 " type="number" name="id">
+                    <input type="submit" class="btn btn-dark">
+                </form>
+            </div>
+            <!-- formulario para eliminar un recluta -->
+            <div class="eliminado">
+                <form action="" class="formEliminado">
+                    <label class="form-label" for="">Ingrese el id del recluta que desea Eliminar</label>
+                    <input class="form-control w-50 " type="number" name="id">
                     <input type="submit" class="btn btn-dark">
                 </form>
 

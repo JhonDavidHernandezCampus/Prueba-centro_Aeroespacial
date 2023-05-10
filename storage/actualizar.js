@@ -15,9 +15,6 @@ actualizar.addEventListener("click", (e)=>{
         let data = Object.fromEntries(new FormData(e.target))
         let ws = new Worker("./storage/wsAc.js", {type:"module"});
         ws.postMessage({module:"actualizar", data:data})
-        
 
     })
-
-
 })
