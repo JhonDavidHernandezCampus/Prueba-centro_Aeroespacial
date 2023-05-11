@@ -72,12 +72,13 @@ h3{
     display: none;
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
-
-
 }
 .eliminado{
     display: none;
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
-
+}
+.consultas{
+    margin: 30px;
+    display: none;
 }
