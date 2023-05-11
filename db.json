@@ -22,7 +22,7 @@
       "direccion": "floridablanca",
       "f_nacimiento": "1211-01-12",
       "num_id": "12121313",
-      "f_ingreso": "2023-05-10",
+      "f_ingreso": "2020-01-1",
       "id": 1683740723838,
       "skills": [
         {}
@@ -83,6 +83,17 @@
       "skills": [
         {}
       ]
+    },
+    {
+      "nombre": "Yoni",
+      "edad": "25",
+      "numero": "12321",
+      "email": "yoni@com.com",
+      "direccion": "lqm",
+      "f_nacimiento": "1200-12-12",
+      "num_id": "2000",
+      "f_ingreso": "2023-05-11",
+      "id": 1683822815655
     }
   ],
   "skills": [
