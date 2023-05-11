@@ -15,8 +15,7 @@ crear.addEventListener("click", (e)=>{
 
         let fecha = new Date().toISOString().split("T")[0];
         let data = Object.fromEntries(new FormData(e.target));
-        data.f_ingreso = fecha
-        console.log(data);
+        data.f_ingreso = fecha;
         datos.postRecluta(data);
 
         alert("Se agrego el recluta "+ data.nombre);
