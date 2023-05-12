@@ -4,14 +4,48 @@ let f_hadosmeses = new Date(fecha.setMonth(fecha.getMonth()-2));
 
 let wsConsu = {
     async pintarConsulta(e){
-        let ret="";
         let data = await datos.consultas(e);
-
         let meses = data.filter(e =>{
             return (new Date(e.f_ingreso) < f_hadosmeses)
         }) 
-        let pintar = ((meses.length ==0)?data:meses)
-        pintar.forEach(e => {
+        return this.pintarenTabla(meses);
+    },
+
+    async teams(e){
+        let data = await datos.consultas(e);
+
+        return this.pintarenTabla(data);
+    },
+    async modulosEspe(e){
+        console.log("modulos");
+        let data = await datos.consultas(e);
+        
+        return this.pintarenTabla(data);
+    },
+    async menEdad(e){
+        let men = [];
+        console.log("menores de edad");
+        let data = await datos.consultas(e);
+        for (let i=0;i<data.length;i++) {
+            (Number(data[i].edad)<18)?men.push(data[i]):"";
+        }
+        return this.pintarenTabla(men);
+    },
+    async moduReclutas(e){
+        console.log("modulos estudiados por un determinad recluta");
+        let data = await datos.consultas(e);
+
+        return this.pintarenTabla(data);
+    },
+    async reclutaPerdieron(e){
+        console.log("reclutas que reprobaron un  determinado modulo");
+        let data = await datos.consultas(e);
+
+        return this.pintarenTabla(data);
+    },
+    pintarenTabla(data){
+        let ret="";
+        data.forEach(e => {
             ret += `
             <tr>
                 <th>${e.nombre}</th>
@@ -26,7 +60,7 @@ let wsConsu = {
             </tr>`;
         }); 
         return ret;
-    }
+    }    
 }
 
 self.addEventListener("message",async (e)=>{

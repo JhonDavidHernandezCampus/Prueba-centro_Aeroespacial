@@ -1,125 +1,131 @@
-{
-  "reclutas": [
-    {
-      "nombre": "eddy",
-      "edad": "1",
-      "numero": "1",
-      "email": "la",
-      "direccion": "c",
-      "f_nacimiento": "20",
-      "num_id": "1",
-      "f_ingreso": "2023-05-10",
-      "id": 1683655695752,
-      "skills": [
-        {}
-      ]
-    },
-    {
-      "nombre": "sebastian",
-      "edad": "8",
-      "numero": "123",
-      "email": "asjbd@asd",
-      "direccion": "floridablanca",
-      "f_nacimiento": "1211-01-12",
-      "num_id": "12121313",
-      "f_ingreso": "2020-01-1",
-      "id": 1683740723838,
-      "skills": [
-        {}
-      ]
-    },
-    {
-      "nombre": "sofia ",
-      "edad": "12",
-      "numero": "23432",
-      "email": "laura@uts.com",
-      "direccion": "2234",
-      "f_nacimiento": "2002-12-12",
-      "num_id": "12387120",
-      "f_ingreso": "2023-05-10",
-      "id": 1683740754884,
-      "skills": [
-        {}
-      ]
-    },
-    {
-      "nombre": "padre",
-      "edad": "40",
-      "numero": "12312",
-      "email": "laura@uts.com",
-      "direccion": "floridablanca",
-      "f_nacimiento": "2002-12-12",
-      "num_id": "20112",
-      "f_ingreso": "2023-05-10",
-      "id": 1683740796746,
-      "skills": [
-        {}
-      ]
-    },
-    {
-      "nombre": "daniel",
-      "edad": "18",
-      "numero": "1231",
-      "email": "daniel@gmail.com",
-      "direccion": "12312",
-      "f_nacimiento": "2005-09-17",
-      "num_id": "12312",
-      "f_ingreso": "2023-01-10",
-      "id": 1683740945934,
-      "skills": [
-        {}
-      ]
-    },
-    {
-      "nombre": "jhon Hernandez",
-      "edad": "40",
-      "numero": "1231",
-      "email": "laura@uts.com",
-      "direccion": "floridablanca",
-      "f_nacimiento": "2002-01-12",
-      "num_id": "12",
-      "f_ingreso": "2023-05-10",
-      "id": 1683742540106,
-      "skills": [
-        {}
-      ]
-    },
-    {
-      "nombre": "Yoni",
-      "edad": "25",
-      "numero": "12321",
-      "email": "yoni@com.com",
-      "direccion": "lqm",
-      "f_nacimiento": "1200-12-12",
-      "num_id": "2000",
-      "f_ingreso": "2023-05-11",
-      "id": 1683822815655
-    }
-  ],
-  "skills": [
-    {
-      "id": 1,
-      "nombre": "programador lANS",
-      "modulo_skill": [
-        {}
-      ]
-    }
-  ],
-  "modulo_skill": [
-    {
-      "id": 1,
-      "nombre": "F1",
-      "id_skill": 1,
-      "evalucion": [
-        {}
-      ]
-    }
-  ],
-  "evalucion": [
-    {
-      "id_recluta": 1,
-      "id_modulo": 1,
-      "nota": "que si puedo hijo de su madre hermosa"
-    }
-  ]
-}
+  {
+    "reclutas": [
+      {
+        "nombre": "eddy",
+        "edad": "1",
+        "numero": "1",
+        "email": "la",
+        "direccion": "c",
+        "f_nacimiento": "20",
+        "num_id": "1",
+        "f_ingreso": "2023-05-10",
+        "id": 1683655695752,
+        "teansId":"2"
+      },
+      {
+        "nombre": "sebastian",
+        "edad": "8",
+        "numero": "123",
+        "email": "asjbd@asd",
+        "direccion": "floridablanca",
+        "f_nacimiento": "1211-01-12",
+        "num_id": "12121313",
+        "f_ingreso": "2020-01-1",
+        "id": 1683740723838,
+        "teansId":"1"
+      },
+      {
+        "nombre": "sofia ",
+        "edad": "12",
+        "numero": "23432",
+        "email": "laura@uts.com",
+        "direccion": "2234",
+        "f_nacimiento": "2002-12-12",
+        "num_id": "12387120",
+        "f_ingreso": "2023-05-10",
+        "id": 1683740754884,
+        "teansId":"2"
+      },
+      {
+        "nombre": "padre",
+        "edad": "40",
+        "numero": "12312",
+        "email": "laura@uts.com",
+        "direccion": "floridablanca",
+        "f_nacimiento": "2002-12-12",
+        "num_id": "20112",
+        "f_ingreso": "2023-05-10",
+        "id": 1683740796746,
+        "teansId":"2"
+      },
+      {
+        "nombre": "daniel",
+        "edad": "18",
+        "numero": "1231",
+        "email": "daniel@gmail.com",
+        "direccion": "12312",
+        "f_nacimiento": "2005-09-17",
+        "num_id": "12312",
+        "f_ingreso": "2023-01-10",
+        "id": 1683740945934,
+        "teansId":"2"
+      },
+      {
+        "nombre": "jhon Hernandez",
+        "edad": "40",
+        "numero": "1231",
+        "email": "laura@uts.com",
+        "direccion": "floridablanca",
+        "f_nacimiento": "2002-01-12",
+        "num_id": "12",
+        "f_ingreso": "2023-05-10",
+        "id": 1683742540106,
+        "teansId":"2"
+      },
+      {
+        "nombre": "Yoni",
+        "edad": "25",
+        "numero": "12321",
+        "email": "yoni@com.com",
+        "direccion": "lqm",
+        "f_nacimiento": "1200-12-12",
+        "num_id": "2000",
+        "f_ingreso": "2023-05-11",
+        "id": 1683822815655,
+        "teansId":"2"
+      }
+    ],
+
+    "teans": [
+      {
+        "id": "3",
+        "nombre": "sputnik",
+        "trainer_asociado": "migule"
+      },
+      {
+        "id": "2",
+        "nombre": "artemis",
+        "trainer_asociado": "lolver"
+      },
+      {
+        "id": "1",
+        "nombre": "Apolo",
+        "trainer_asociado": "llolver"
+      }
+    ],
+
+
+
+
+
+    "skills": [
+      {
+        "id": 1,
+        "nombre": "programador lANS"
+      }
+    ],
+    "modulo_skill": [
+      {
+        "id": 1,
+        "nombre": "F1",
+        "id_skill": 1
+      }
+    ],
+    "evalucion": [
+      {
+        "id_recluta": 1,
+        "id_modulo": 1,
+        "nota": "que si puedo hijo de su madre hermosa"
+      }
+    ]
+  }

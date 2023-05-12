@@ -34,7 +34,6 @@ const consultas= async(e)=>{
         method: "GET",
     };
     return await (await fetch(`${e}`,config)).json();
-    
 }
 
 export default{
